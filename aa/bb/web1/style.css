@@ -1,0 +1,86 @@
+body {
+    background-image: url('fon.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    background-color: #FDFEFF;
+}
+.lest
+{
+    width: 80%;
+}
+.fa
+{
+    width: 80%;
+}
+.custom-button {
+    background-color: #5B6E74;
+    color: white;
+}
+
+.table-bordered th{ 
+    border: 2px solid #ffffff; 
+}
+.table-bordered td {
+    border: 2px solid #cbcbcb; 
+}
+.table-bordered {
+    border-collapse: collapse; 
+}
+.text-center {
+    text-align: center;
+    color: #373737;
+}
+.custom-table {
+    width: 80%;
+    margin: 0 auto;
+}
+.table-header {
+    background-color: #5B6E74;
+    color: white;
+}
+.table-row {
+    background-color: #ffffff;
+}
+.alt-row {
+    background-color: #e5e5e5;
+}
+
+footer {
+    background: #474A4F;
+}
+
+* {
+    box-sizing: border-box; 
+}
+
+@media(max-width: 768px){
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    table{
+        order: 1;
+    }
+    .lest {
+        order: 2;
+        width: 100%; 
+    }
+    .fa{
+        order: 3;
+        width: 100%; 
+    }
+    footer{
+        order: 4;
+        width: 100%; 
+    }
+    header{
+        width: 100%;
+    }
+    .inheader img{
+        width: 35%;
+    }
+}
